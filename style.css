@@ -1,0 +1,137 @@
+body * {
+margin-left: 0%;
+margin-right: 0%;
+font-family: 'Work Sans', sans-serif;
+}
+
+/*--HEADER and NAVIGATION MENU--*/
+.header {
+    display: flex;
+    background-color: #1f2937;
+    font-family: Helvetica;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.nav-menu li {
+    display: flex;
+    padding: 10px
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*---SLIDER--*/
+
+#slider {
+    display: flex;
+    background-color: #1f2937;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    min-height: 420px;
+    justify-content: space-between;
+}
+
+.sl-left {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1 1 50%;
+}
+
+.sl-left h1 {
+font-size: 48px;
+font-weight:900;
+color: #f9faf8;
+}
+
+.sl-left p {
+font-size: 18px;
+color: #e5e7eb;
+}
+
+.sl-button {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #3882f6;
+font-weight: 600;
+width: 150px;
+height: 50px;
+border-radius: 10px;
+}
+
+.sl-button a {
+font-size: 18px;
+color: #e5e7eb;
+text-decoration: none;
+}
+
+.sl-right {
+    display: flex;
+    flex: 1 1 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sl-right img {
+    max-width: 70%;
+
+}
+
+/*--Some Random Information Part--*/
+#random-info {
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.rinf-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rinf-header h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+#image-box img {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#image-box img {
+    max-width: 10%;
+    border-radius: 10%;
+}
