@@ -44,7 +44,7 @@ font-family: 'Work Sans', sans-serif;
     color: #e5e7eb;
 }
 
-/*---SLIDER--*/
+/*---SLIDER Section--*/
 
 #slider {
     display: flex;
@@ -106,7 +106,7 @@ text-decoration: none;
 
 }
 
-/*--SOME RANDOM INFORMATION--*/
+/*--SOME RANDOM INFORMATION Section--*/
 #random-info {
     display:flex;
     flex-flow: column nowrap;
@@ -156,7 +156,7 @@ text-decoration: none;
     max-width: 50%;
 }
 
-/*--QUOTE--*/
+/*--QUOTE Section--*/
 
 #quote-area {
     background-color: #e5e7eb;
@@ -169,7 +169,7 @@ text-decoration: none;
 }
 
 .quote {
-    flex-flow: row wrap;    3"
+    flex-flow: row wrap;
  
 }
 
@@ -203,3 +203,43 @@ text-decoration: none;
     font-size: 1.8em;
     padding: 0 5em;
 }
+
+/*--CALL TO ACTION Section--*/
+
+#cta-wrapper {
+    min-height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2em 5em;
+    margin: 5em 20em;
+    border-radius: 0.75em;
+    width: 100%;
+}
+
+.cta-left {
+    color: #f9faf8;
+}
+
+.cta-right {
+    border-radius: 0.3em; 
+    border: 2px solid white;
+    padding: 1em 4em;
+
+}
+
+.cta-right a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+/*--FOOTER--*/
+
