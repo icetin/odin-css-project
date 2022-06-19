@@ -54,7 +54,7 @@ font-family: 'Work Sans', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
     align-items: center;
-    min-height: 420px;
+    min-height: 30em;
     justify-content: space-between;
 }
 
@@ -106,17 +106,22 @@ text-decoration: none;
 
 }
 
-/*--Some Random Information Part--*/
+/*--SOME RANDOM INFORMATION--*/
 #random-info {
     display:flex;
     flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10em;
 }
 
 .rinf-header {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .rinf-header h2 {
@@ -125,13 +130,76 @@ text-decoration: none;
     color: #1f2937;
 }
 
-#image-box img {
+#image-box {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content:space-around
 }
 
 #image-box img {
-    max-width: 10%;
+    width: 150px;
+
     border-radius: 10%;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pics p {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: left;
+    max-width: 50%;
+}
+
+/*--QUOTE--*/
+
+#quote-area {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 30em;
+    padding: 0em 10em 0em 10em;
+}
+
+.quote {
+    flex-flow: row wrap;    3"
+ 
+}
+
+.quote p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 0 5em;
+}
+
+.thor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: max-content;
+}
+
+.thor-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-width: 100%;
+    padding: 0 5em;
+}
+
+.thor p {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 1.8em;
+    padding: 0 5em;
 }
